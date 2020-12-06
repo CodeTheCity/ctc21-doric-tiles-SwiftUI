@@ -1,4 +1,4 @@
-# ctc21-doric-tiles-SwiftUI
+# CTC21 Doric Tiles SwiftUI
 ## Project Background
 
 Basic SwiftUI app that makes use of the outcomes of the [CTC21 Doric Tiles](https://github.com/CodeTheCity/ctc21-doric-tiles) project as part of [CTC21: Put Your City on the Map](https://codethecity.org/what-we-do/hack-weekends/code-the-city-21-put-your-city-on-the-map/) which ran Saturday 28th Nov 2020 and Sunday 29th Nov 2020. 
