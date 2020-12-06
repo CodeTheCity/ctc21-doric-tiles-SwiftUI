@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		497426532572F014006539BA /* PlaceListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497426522572F013006539BA /* PlaceListItemView.swift */; };
+		497426562572F57F006539BA /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497426552572F57F006539BA /* PlaceDetailView.swift */; };
+		497426592572F73A006539BA /* DetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497426582572F73A006539BA /* DetailMapView.swift */; };
 		497DB3C425727BB100528CCA /* DoricTilesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3C325727BB100528CCA /* DoricTilesApp.swift */; };
 		497DB3C625727BB100528CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3C525727BB100528CCA /* ContentView.swift */; };
 		497DB3C825727BB400528CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497DB3C725727BB400528CCA /* Assets.xcassets */; };
 		497DB3CB25727BB400528CCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497DB3CA25727BB400528CCA /* Preview Assets.xcassets */; };
+		497DB3D525727BD900528CCA /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 497DB3D425727BD900528CCA /* places.json */; };
+		497DB3D925727C0C00528CCA /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3D825727C0C00528CCA /* PlaceModel.swift */; };
+		497DB3DE25727D7600528CCA /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3DD25727D7600528CCA /* CodableBundleExtension.swift */; };
+		497DB3E3257285A000528CCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3E2257285A000528CCA /* MainView.swift */; };
+		497DB3E6257285C000528CCA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3E5257285C000528CCA /* MapView.swift */; };
+		497DB3EA25728AAF00528CCA /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3E925728AAF00528CCA /* MapAnnotationView.swift */; };
+		497DB3F62572926400528CCA /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3F52572926400528CCA /* RemoteImage.swift */; };
+		497DB3FA2572AC4500528CCA /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3F92572AC4500528CCA /* CreditsView.swift */; };
+		497DB3FE2572AC8400528CCA /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB3FD2572AC8400528CCA /* CenterModifier.swift */; };
+		497DB4022572AE9700528CCA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DB4012572AE9700528CCA /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		497426522572F013006539BA /* PlaceListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListItemView.swift; sourceTree = "<group>"; };
+		497426552572F57F006539BA /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		497426582572F73A006539BA /* DetailMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapView.swift; sourceTree = "<group>"; };
 		497DB3C025727BB100528CCA /* DoricTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoricTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497DB3C325727BB100528CCA /* DoricTilesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoricTilesApp.swift; sourceTree = "<group>"; };
 		497DB3C525727BB100528CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		497DB3C725727BB400528CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497DB3CA25727BB400528CCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		497DB3CC25727BB400528CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497DB3D425727BD900528CCA /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		497DB3D825727C0C00528CCA /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		497DB3DD25727D7600528CCA /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		497DB3E2257285A000528CCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		497DB3E5257285C000528CCA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		497DB3E925728AAF00528CCA /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		497DB3F52572926400528CCA /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		497DB3F92572AC4500528CCA /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		497DB3FD2572AC8400528CCA /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		497DB4012572AE9700528CCA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +78,13 @@
 		497DB3C225727BB100528CCA /* DoricTiles */ = {
 			isa = PBXGroup;
 			children = (
-				497DB3C325727BB100528CCA /* DoricTilesApp.swift */,
-				497DB3C525727BB100528CCA /* ContentView.swift */,
+				497DB3FC2572AC7300528CCA /* Modifier */,
+				497DB3E825728A8D00528CCA /* View */,
+				497DB3DC25727D4100528CCA /* Extension */,
+				497DB3D725727BFA00528CCA /* Model */,
+				497DB3D325727BCA00528CCA /* Data */,
+				49CC874A257D00790035485A /* Helpers */,
+				497DB3E025727D8A00528CCA /* App */,
 				497DB3C725727BB400528CCA /* Assets.xcassets */,
 				497DB3CC25727BB400528CCA /* Info.plist */,
 				497DB3C925727BB400528CCA /* Preview Content */,
@@ -67,6 +98,70 @@
 				497DB3CA25727BB400528CCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		497DB3D325727BCA00528CCA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3D425727BD900528CCA /* places.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		497DB3D725727BFA00528CCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3D825727C0C00528CCA /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		497DB3DC25727D4100528CCA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3DD25727D7600528CCA /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		497DB3E025727D8A00528CCA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3C325727BB100528CCA /* DoricTilesApp.swift */,
+				497DB3C525727BB100528CCA /* ContentView.swift */,
+				497DB3E2257285A000528CCA /* MainView.swift */,
+				497DB3E5257285C000528CCA /* MapView.swift */,
+				497DB4012572AE9700528CCA /* SettingsView.swift */,
+				497426552572F57F006539BA /* PlaceDetailView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		497DB3E825728A8D00528CCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3E925728AAF00528CCA /* MapAnnotationView.swift */,
+				497DB3F92572AC4500528CCA /* CreditsView.swift */,
+				497426522572F013006539BA /* PlaceListItemView.swift */,
+				497426582572F73A006539BA /* DetailMapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		497DB3FC2572AC7300528CCA /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3FD2572AC8400528CCA /* CenterModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		49CC874A257D00790035485A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				497DB3F52572926400528CCA /* RemoteImage.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497DB3D525727BD900528CCA /* places.json in Resources */,
 				497DB3CB25727BB400528CCA /* Preview Assets.xcassets in Resources */,
 				497DB3C825727BB400528CCA /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +234,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497DB3DE25727D7600528CCA /* CodableBundleExtension.swift in Sources */,
+				497DB3FE2572AC8400528CCA /* CenterModifier.swift in Sources */,
+				497DB3E6257285C000528CCA /* MapView.swift in Sources */,
 				497DB3C625727BB100528CCA /* ContentView.swift in Sources */,
+				497DB3F62572926400528CCA /* RemoteImage.swift in Sources */,
+				497DB3D925727C0C00528CCA /* PlaceModel.swift in Sources */,
+				497DB3E3257285A000528CCA /* MainView.swift in Sources */,
+				497426562572F57F006539BA /* PlaceDetailView.swift in Sources */,
+				497DB3FA2572AC4500528CCA /* CreditsView.swift in Sources */,
 				497DB3C425727BB100528CCA /* DoricTilesApp.swift in Sources */,
+				497426592572F73A006539BA /* DetailMapView.swift in Sources */,
+				497426532572F014006539BA /* PlaceListItemView.swift in Sources */,
+				497DB3EA25728AAF00528CCA /* MapAnnotationView.swift in Sources */,
+				497DB4022572AE9700528CCA /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +377,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DoricTiles/Preview Content\"";
-				DEVELOPMENT_TEAM = S5QHRLF2PG;
+				DEVELOPMENT_TEAM = 33W58W5MZ2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DoricTiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -291,7 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DoricTiles/Preview Content\"";
-				DEVELOPMENT_TEAM = S5QHRLF2PG;
+				DEVELOPMENT_TEAM = 33W58W5MZ2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DoricTiles/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
