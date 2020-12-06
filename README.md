@@ -13,6 +13,14 @@ The app takes those place names and displays them as a list and a map. Where exi
 
 The app is currently developed as an iOS 14 app built using Xcode 12.2 and developed in SwiftUI 2.0.
 
+![List of places in English and Scots: iPhone](images/dt-places-list-iphone.png)
+
+![Details screen for Aberchirder showing translation, phone and location on map](images/dt-aberchirder-iphone.png)
+
+![Map showing translated and untranslated locations with photo](images/dt-map-iphone.png)
+
+
+
 ## Wikidata Query
 
 A SPARQL query has been used for extracting the Wikidata data that is used within the app. The query can be found in the [CTC21 Doric Tiles repo](https://github.com/CodeTheCity/ctc21-doric-tiles/blob/main/sparql/aberdeenshire-places-images.txt) and run via the [Wikidata Query Service](https://query.wikidata.org).
